@@ -76,3 +76,5 @@ The attacker calls and appears to be someone else, getting the information requi
 
 There is no prevention; with the coming tools and technologies the best remedy is user awareness.  
 Layered security approach. MFA is the best approach in case of credential leaks.
+
+_____Jamming with jam_____
