@@ -10,6 +10,9 @@ Eg: support@micr0soft.com
 support1ogin@gmail.com  
 googleservice@mail.com 
 
+![Phishing example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-PhishingInspector/blob/main/assets/sample1.png?raw=true)
+
+
 So no such domain name mails are valid. The sender doesn't want you to send the reply mail so the content will be purely focusing on clicking the links, downloading the files and an urgent response subject.
 
 **2. The mail comes with many details but we ignore them as we are more focused on the content. The users can look at sent by and signed by and encryption fields.**  
@@ -19,7 +22,13 @@ With such attacks they dont involve names, if involved it genuine.If the request
 
 Mostly when the domain seems off , just open https://verifalia.com/validate-email , an open source tool where it checks if the mail matches the rules and valid or not.
 
+![Phishing example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-PhishingInspector/blob/main/assets/sample2.png?raw=true)
+
+![Phishing example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-PhishingInspector/blob/main/assets/sample3.png?raw=true)
+
 **4. Most importantly, the links you see are the main key here. The payload injected mails are just http links. Which are not secured, we are far more a head than the HTTP, all the sites are now secured with HTTPS port. Now you can imagine if you click the link the malicious payload gets to you system and your sensitive information.**
+
+![Phishing example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-PhishingInspector/blob/main/assets/sample4.png?raw=true)
 
 Here the attacker smart enough to show the link as https but when you hover the link, you can see the real url we are about to click. ALWAYS BE CAREFUL WITH WHAT YOU ARE CLICKING. This simple technique can save us. 
 
